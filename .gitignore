@@ -1,0 +1,35 @@
+# Binaries for the current project
+*.exe
+*.bin
+*.out
+*/bin/*
+
+# Go module cache
+# This can be ignored as `go mod download` or `go mod vendor` will manage it.
+vendor/
+
+# Local dependencies and build artifacts
+pkg/
+# For modules, the 'pkg' directory is typically within the module root,
+# but if you have a global GOPATH setup, it could be elsewhere.
+
+# Test caches
+# The 'go test' command can generate caches that are not needed in version control.
+*.test
+*.prof
+
+# IDE and editor specific files
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Environment variables and configuration files
+# These often contain sensitive information or are specific to a local setup.
+.env
+config.local.yaml
+*.local
+
+# Logs and temporary files
+*.log
+*.tmp
