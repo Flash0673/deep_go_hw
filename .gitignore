@@ -33,3 +33,7 @@ config.local.yaml
 # Logs and temporary files
 *.log
 *.tmp
+/.idea/.gitignore
+/.idea/homework.iml
+/.idea/modules.xml
+/.idea/vcs.xml
