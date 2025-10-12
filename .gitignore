@@ -19,8 +19,8 @@ pkg/
 *.prof
 
 # IDE and editor specific files
-.idea/ # IntelliJ IDEA
-.vscode/ # VS Code
+./.idea # IntelliJ IDEA
+.vscode # VS Code
 .DS_Store # macOS specific
 Thumbs.db # Windows specific
 
