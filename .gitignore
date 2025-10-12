@@ -19,10 +19,10 @@ pkg/
 *.prof
 
 # IDE and editor specific files
-.idea # IntelliJ IDEA
-.vscode # VS Code
-.DS_Store # macOS specific
-Thumbs.db # Windows specific
+/.idea/ # IntelliJ IDEA
+/.vscode # VS Code
+/.DS_Store # macOS specific
+/Thumbs.db # Windows specific
 
 # Environment variables and configuration files
 # These often contain sensitive information or are specific to a local setup.
